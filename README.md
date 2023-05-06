@@ -46,5 +46,43 @@ The <b>TreeNode</b> class represents a node in the TwoDTree.
   - meComp: The comparator used to make decisions on this level.
   - childComp: The comparator used to make decisions on the child level.
  
+ <br>
  
- <h3></h3>
+<b>insert(Point point)</b> <br>
+ <i>Inserts a point into the subtree, rooted at this node.</i> <br>
+ 
+- Parameters:
+  - point: The point to be inserted.
+ 
+<br>
+ 
+<b>search(Point point)</b> <br>
+<i>Search for a point in the tree.</i> <br>
+
+- Parameters:
+  - point: The point to be inserted.
+- Returns:
+  - true if the point is found, false otherwise.
+ 
+<br>
+ 
+<b>searchRange(Point point1, Point point2)</b> <br>
+<i>Search for the points within a given range of the tree.</i> <br>
+
+- Parameters:
+  - point1: The first point defining the search range.
+  - point2: The second point defining the search range.
+- Returns:
+  - An ArrayList of Points within the search range.
+ 
+<br>
+ 
+<b>searchRange(Point lowerLeft, Point upperRight, ArrayList<Point> results)</b> <br>
+<i>Helper method for recursively searching for points within a given range in the tree.</i> <br>
+ 
+- Parameters:
+  - lowerLeft: The lower left point defining the search range.
+  - upperRight: The upper right point defining the search range.
+  - results: The ArrayList of Points to add the POints found within the search range.
+- Returns:
+  - An ArrayList of Points within the search range.
