@@ -1,4 +1,4 @@
-<h1>Coordinate Tree API</h1>
+<h1>Design and Implementation of a 2D Coordinate BST</h1>
  
  
  
