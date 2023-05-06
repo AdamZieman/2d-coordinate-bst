@@ -20,3 +20,20 @@ To use the Coordinate Tree class in your own code, follow these steps:
 4. Insert points into the tree using the 'insert' method.
 5. Search for points using the 'search' method.
 6. Search for points within a range using the 'searchRange' method.
+
+<br>
+
+
+
+<!-- Tree Node Attributes -->
+<h2>Tree Node Attributes</h2>
+
+The <b>TreeNode</b> class represents a node in the TwoDTree.
+
+<h3>TreeNode(Point point, Comparator<Point> meComp, Comparator<Point> childComp)</h3>
+
+- Initializes a new TreeNode with the given point and comparators.
+- Parameters:
+  - point: The point to be stored in the node.
+  - meComp: The comparator used to make decisions on this level.
+  - childComp: The comparator used to make decisions on the child level.
