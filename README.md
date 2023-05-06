@@ -26,14 +26,25 @@ To use the Coordinate Tree class in your own code, follow these steps:
 
 
 <!-- Tree Node Attributes -->
-<h2>Tree Node Attributes</h2>
+<h2>Tree Node (Inner-Class)</h2>
 
 The <b>TreeNode</b> class represents a node in the TwoDTree.
 
-<h3>TreeNode(Point point, Comparator<Point> meComp, Comparator<Point> childComp)</h3>
+<h3>Class Variables</h3>
+<b>Point point:</b> <i>The point stored in this object.</i> <br>
+<b>TreeNode leftSubtree:</b> <i>The left subtree.</i> <br>
+<b>TreeNode rightSubtree:</b> <i>The right subtree.</i> <br>
+<b>Comparator<Point> currentLevelComparator:</b> <i>A comparator to make decisions on this level.</i> <br>
+ <b>Comparator<Point> childLevelComparator:</b> <i>A comparator to make decisions on the child level.</i> <br>
 
-- Initializes a new TreeNode with the given point and comparators.
+<h3>Methods</h3>
+<b>TreeNode(Point point, Comparator<Point> meComp, Comparator<Point> childComp)</b> <br>
+<i>Constructs a new TreeNode with the given point and comparators.</i> <br>
+ 
 - Parameters:
   - point: The point to be stored in the node.
   - meComp: The comparator used to make decisions on this level.
   - childComp: The comparator used to make decisions on the child level.
+ 
+ 
+ <h3></h3>
