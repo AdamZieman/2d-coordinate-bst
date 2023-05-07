@@ -39,7 +39,7 @@ To use the Coordinate Tree class in your own code, follow these steps:
 <i>The parameterized constructor initializes a TwoDTree with a list of points.</i> <br>
  
 - Parameters:
- - points: A list of points to be inserted into the TwoDTree.
+  - points: A list of points to be inserted into the TwoDTree.
  
 <br>
  
@@ -47,7 +47,7 @@ To use the Coordinate Tree class in your own code, follow these steps:
 <i>Inserts a point into the TwoDTree.</i> <br>
  
 - Parameters:
- - point: The point to be inserted into the tree.
+  - point: The point to be inserted into the tree.
  
 <br>
 
