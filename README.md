@@ -162,3 +162,31 @@ The <b>XComparator</b> class implements the Comparator interface, overrides the 
  
 - Returns:
   - the singleton instance of XComparator.
+
+<br><br>
+
+<!-- YComparator Class -->
+<h2>YComparator Class</h2>
+
+The <b>XComparator</b> class implements the Comparator interface, overrides the compare method, and returns an instance of YComparator.
+ 
+<h3>Class Variables</h3>
+<b>YComparator yComparator:</b> <i>Creates an instance of YComparator.</i> <br>
+
+<h3>Methods</h3>
+<b>compare(Point point1, Point point2)</b> <br>
+<i>Overrides the compare method of the Comparator interface to compare two points based on their y-coordinates.</i> <br>
+
+- Parameters:
+  - point1: the first point to compare.
+  - point2: the second point to compare.
+- Returns:
+  - a negative integer, zero, or a positive integer as the first argument is less than, equal to, or greater than the second.
+
+<br>
+ 
+<b>getInstance()</b> <br>
+<i>Returns the singleton instance of YComparator.</i> <br>
+ 
+- Returns:
+  - the singleton instance of YComparator.
