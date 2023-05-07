@@ -140,4 +140,17 @@ The <b>TreeNode</b> class represents a node in the TwoDTree.
 <!-- XComparator Class -->
 <h2>XComparator Class</h2>
 
-The <b>XComparator</b> class implements the Comparator<Point> Class, overrides the compare method, and returns an instance of XComparator.
+The <b>XComparator</b> class implements the Comparator interface, overrides the compare method, and returns an instance of XComparator.
+ 
+<h3>Class Variables</h3>
+<b>XComparator xComparator:</b> <i>Creates an instance of XComparator.</i> <br>
+
+<h3>Methods</h3>
+<b>compare(Point point1, Point point2)</b> <br>
+<i>Overrides the compare method of the Comparator interface to compare two points based on their x-coordinates.</i> <br>
+
+- Parameters:
+  - point1: the first point to compare.
+  - point2: the second point to compare.
+- Returns:
+  - a negative integer, zero, or a positive integer as the first argument is less than, equal to, or greater than the second.
