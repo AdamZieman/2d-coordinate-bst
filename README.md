@@ -58,7 +58,19 @@ To use the Coordinate Tree class in your own code, follow these steps:
   - point: The point to be searched for in the tree.
 - Returns:
   - true if the point is found, false otherwise.
+ 
+<br>
+ 
+<b>searchRange(Point point1, Point point2)</b> <br>
+<i>Searches for all points within a given range.</i> <br>
+ 
+- Parameters:
+  - point1: One corner of the range.
+  - point2: The opposite corner of the range.
+- Returns:
+  - An ArrayList of all points within the given range.
 
+<br><br>
 
 
 <!-- Tree Node Class -->
