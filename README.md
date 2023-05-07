@@ -154,3 +154,11 @@ The <b>XComparator</b> class implements the Comparator interface, overrides the 
   - point2: the second point to compare.
 - Returns:
   - a negative integer, zero, or a positive integer as the first argument is less than, equal to, or greater than the second.
+
+<br>
+ 
+<b>getInstance()</b> <br>
+<i>Returns the singleton instance of XComparator.</i> <br>
+ 
+- Returns:
+  - the singleton instance of XComparator.
