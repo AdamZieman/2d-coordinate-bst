@@ -29,7 +29,7 @@ To use the Coordinate Tree class in your own code, follow these steps:
 <h2>TwoDTree Class</h2>
 
 <h3>Class Variables</h3>
-<b>TreeNode root:</b> <br>
+<b>TreeNode root:</b> <i>The root of the 2D tree</i><br>
 
 <h3>Methods</h3>
 <b>TwoDTree()</b> <br>
@@ -134,3 +134,10 @@ The <b>TreeNode</b> class represents a node in the TwoDTree.
   - results: The ArrayList of Points to add the POints found within the search range.
 - Returns:
   - An ArrayList of Points within the search range.
+
+<br><br>
+
+<!-- XComparator Class -->
+<h2>XComparator Class</h2>
+
+The <b>XComparator</b> class implements the Comparator<Point> Class, overrides the compare method, and returns an instance of XComparator.
