@@ -40,6 +40,25 @@ To use the Coordinate Tree class in your own code, follow these steps:
  
 - Parameters:
  - points: A list of points to be inserted into the TwoDTree.
+ 
+<br>
+ 
+<b>insert(Point point)</b> <br>
+<i>Inserts a point into the TwoDTree.</i> <br>
+ 
+- Parameters:
+ - point: The point to be inserted into the tree.
+ 
+<br>
+
+<b>search(Point point)</b> <br>
+<i>Searches for a point in the tree.</i> <br>
+ 
+- Parameters:
+  - point: The point to be searched for in the tree.
+- Returns:
+  - true if the point is found, false otherwise.
+
 
 
 <!-- Tree Node Class -->
