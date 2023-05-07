@@ -25,7 +25,7 @@ To use the Coordinate Tree class in your own code, follow these steps:
 
 
 
-<!-- Tree Node Attributes -->
+<!-- Tree Node -->
 <h2>Tree Node (Inner-Class)</h2>
 
 The <b>TreeNode</b> class represents a node in the TwoDTree.
