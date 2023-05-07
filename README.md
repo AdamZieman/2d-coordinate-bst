@@ -33,7 +33,13 @@ To use the Coordinate Tree class in your own code, follow these steps:
 
 <h3>Methods</h3>
 <b>TwoDTree()</b> <br>
-<i>The default constructor initializes an empty TwoDTree.</i> <br>
+<i>The default constructor initializes an empty TwoDTree.</i> <br><br>
+
+<b>TwoDTree(ArrayList<Point> points)</b> <br>
+<i>The parameterized constructor initializes a TwoDTree with a list of points.</i> <br>
+ 
+- Parameters:
+ - points: A list of points to be inserted into the TwoDTree.
 
 
 <!-- Tree Node Class -->
