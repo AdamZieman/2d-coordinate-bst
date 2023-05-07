@@ -1,4 +1,4 @@
-<h1>Design and Implementation of a 2D BST of Coordinates</h1>
+<h1>Design and Implementation: 2-D BST of Coordinates</h1>
  
  
  
